@@ -25,7 +25,7 @@ const GamesSwiper = ({ games, title, offset, showAllItems = false }) => {
 		)
 	}
 
-	if (games.length==0 || !games) {
+	if (games.length===0 || !games) {
 		return noReturnComponent
 	}
 
@@ -48,7 +48,7 @@ const GamesSwiper = ({ games, title, offset, showAllItems = false }) => {
 							// 	game={game}
 							// 	objectFitCover
 							// />
-                            <div>
+                            <div className={styles.mySwiper}>
                                 {game.displayName}
                             </div>
 						)

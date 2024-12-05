@@ -13,7 +13,7 @@ const games = [
         displayName: "Mega Spin Deluxe",
         imageFileName: "mega-spin-deluxe.jpg",
         gameProvider,
-        internalGameCategories: [1, 2], // e.g., Slots and Popular
+        internalGameCategories: [1, 2, 3], // e.g., Slots and Popular
         identifier: "mega-spin-deluxe",
     },
     {
@@ -29,7 +29,7 @@ const games = [
         displayName: "Lucky Sevens",
         imageFileName: "lucky-sevens.jpg",
         gameProvider,
-        internalGameCategories: [1], // e.g., Slots
+        internalGameCategories: [1, 3], // e.g., Slots
         identifier: "lucky-sevens",
     },
 ]

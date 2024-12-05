@@ -39,6 +39,12 @@
 	}
 }
 
+.mySwiper {
+	background-color: beige;
+	height: 300px;
+	width: 180px;
+}
+
 @media (max-width: 768px) {
 	.swiperSlide {
 		max-height: 200px;
